@@ -4,4 +4,10 @@ import SCLAlertButton from './SCLAlertButton'
 import SCLAlertTitle from './SCLAlertTitle'
 import SCLAlertSubtitle from './SCLAlertSubtitle'
 
-export { SCLAlert, SCLAlertHeader, SCLAlertButton, SCLAlertTitle, SCLAlertSubtitle }
+export {
+  SCLAlert,
+  SCLAlertHeader,
+  SCLAlertButton,
+  SCLAlertTitle,
+  SCLAlertSubtitle
+}

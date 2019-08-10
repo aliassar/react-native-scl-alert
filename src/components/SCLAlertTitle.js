@@ -1,6 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { View, ViewPropTypes, StyleSheet, Text } from 'react-native'
+
+import {
+  View,
+  ViewPropTypes,
+  StyleSheet,
+  Text
+} from 'react-native'
+
 import variables from '../config/variables'
 
 SCLAlertTitle.propTypes = {
@@ -14,7 +21,7 @@ SCLAlertTitle.defaultProps = {
   titleStyle: {}
 }
 
-function SCLAlertTitle(props) {
+function SCLAlertTitle (props) {
   return (
     <View style={[styles.container, props.titleContainerStyle]}>
       <Text numberOfLines={1} style={[styles.text, props.titleStyle]}>
