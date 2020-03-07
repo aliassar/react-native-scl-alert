@@ -17,6 +17,7 @@ import {
 } from '../components'
 
 import {
+  width,
   height
 } from '../helpers/dimensions'
 
@@ -176,7 +177,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingVertical: 50,
-    paddingHorizontal: 16,
+    paddingHorizontal: (width > 719 ? 24 : 16),
     position: 'relative'
   },
   innerContent: {

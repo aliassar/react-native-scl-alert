@@ -150,7 +150,7 @@ export default {
 
     // Content
     get contentWidth() {
-        return width * (width > 600 ? 0.50 : 0.8);
+        return width - (width > 719 ? 48 : 32);
 
     },
 
