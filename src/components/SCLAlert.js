@@ -175,7 +175,8 @@ const styles = StyleSheet.create({
     zIndex: 150,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 50,
+    paddingVertical: 50,
+    paddingHorizontal: 16,
     position: 'relative'
   },
   innerContent: {
