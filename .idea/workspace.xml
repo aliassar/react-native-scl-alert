@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e39fdf5-acd1-4b7d-a536-b573e46873f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SCLAlertButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SCLAlertButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SCLAlertHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SCLAlertHeader.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +24,6 @@
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
   </component>
   <component name="ProjectId" id="1YnqCCc81xwiOPNR1FO0zTXxXY1" />
   <component name="ProjectViewState">
@@ -57,7 +53,11 @@
       <option name="presentableId" value="Default" />
       <updated>1565416344233</updated>
       <workItem from="1565416345627" duration="2604000" />
-      <workItem from="1583588577262" duration="1103000" />
+      <workItem from="1583588577262" duration="1613000" />
+      <workItem from="1583932732304" duration="1493000" />
+      <workItem from="1583935189870" duration="2165000" />
+      <workItem from="1583992649886" duration="9000" />
+      <workItem from="1586010834308" duration="619000" />
     </task>
     <servers />
   </component>

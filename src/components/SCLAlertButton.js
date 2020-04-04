@@ -37,7 +37,7 @@ function SCLAlertButton (props) {
   const childrenType = typeof props.children
 
   return (
-    <TouchableOpacity activeOpacity={0.8} onPress={props.onPress}>
+    <TouchableOpacity activeOpacity={0.8} onPress={props.onPress} style={{flex:1}}>
       <View
         style={[
           styles.container,

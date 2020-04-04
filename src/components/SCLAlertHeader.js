@@ -30,22 +30,24 @@ SCLAlertHeader.defaultProps = {
   headerIconComponent: null
 }
 
-function SCLAlertHeader (props) {
+function SCLAlertHeader(props) {
   return (
-    <View style={[styles.container, styles.headerContainerStyles]}>
-      <View
-        style={[
-          styles.inner,
-          styles.headerInnerStyles,
-          { backgroundColor: variables[`${props.theme}Background`] }
-        ]}
-      >
-        {!props.headerIconComponent && (
-          <Image source={{ uri: images[props.theme] }} style={styles.image} />
-        )}
-        {props.headerIconComponent}
-      </View>
-    </View>
+     <View style={[styles.container, styles.headerContainerStyles]}>
+       <View style={[styles.container, styles.headerContainerStyles,{backgroundColor:variables.white,width:null,padding:4}]}>
+         <View
+            style={[
+              styles.inner,
+              styles.headerInnerStyles,
+              {backgroundColor: variables[`${props.theme}Background`]}
+            ]}
+         >
+           {!props.headerIconComponent && (
+              <Image source={{uri: images[props.theme]}} style={styles.image}/>
+           )}
+           {props.headerIconComponent}
+         </View>
+       </View>
+     </View>
   )
 }
 
@@ -53,11 +55,10 @@ const styles = StyleSheet.create({
   container: {
     position: 'absolute',
     zIndex: 150,
+    width: '100%',
+    alignItems: 'center',
     top: 0,
-    left: (variables.contentWidth / 2) - (variables.headerCircleSize /2),
     borderRadius: variables.headerCircleSize,
-    backgroundColor: variables.white,
-    padding: 4
   },
   inner: {
     width: variables.headerCircleSize,
