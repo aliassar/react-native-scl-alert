@@ -11,7 +11,7 @@ export const guidelineBaseHeight = 680
 
 const scale = size => (
     width > 600 ?
-        size < 25 ? 7 : 20 :
+        600 / guidelineBaseWidth * size :
         width / guidelineBaseWidth * size
 )
 const verticalScale = size => height / guidelineBaseHeight * size
